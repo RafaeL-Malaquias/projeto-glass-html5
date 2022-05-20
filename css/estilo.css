@@ -19,13 +19,7 @@ div#interface {
     padding: 10px;
     
 }
-.ntc {
-    position: absolute;
-    width: 230px;
-    margin: -10px;
-    left: auto;
-   
-}
+
 p {
    text-align: justify;
    text-indent: 50px
