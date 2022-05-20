@@ -13,10 +13,18 @@ body {
 }
 div#interface {
     width: 900px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: -20px auto 10px auto;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);   padding: 10px 
-
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.ntc {
+    position: absolute;
+    width: 230px;
+    margin: -10px;
+    left: auto;
+   
 }
 p {
    text-align: justify;
@@ -39,14 +47,14 @@ header#cabecalho img#icone {
     top: 50px;
 }
 header#cabecalho{
-    border-bottom: 1px #606060 solid;
+    border-bottom: 1px #000000 solid;
     height: 160px;
     background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
  }
 
  header#cabecalho h1 {
  font-size: 20pt;
- color: #606060;
+ color: #0084ff;
  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
  padding: 0px
 
@@ -55,7 +63,7 @@ header#cabecalho{
 }
 header#cabecalho h2 {
     font-family: 'Cantata One', serif;
-    color: #88888888;
+    color: #ff0000d2;
     font-size: 15pt;
     padding: 0px;
     margin-top: 20px;
@@ -95,6 +103,7 @@ figure.foto-legenda:hover figcaption {
 /* Formatçã do menu */
 
 nav#menu ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     text-transform: uppercase;
     position: absolute;
@@ -105,11 +114,13 @@ nav#menu li {
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 3px;
+    margin: 5px;
     transition: background-color 1s;
+    border-radius: 15px;
+
 }
 nav#menu li:hover {
-    background-color: #606060;
+    background-color: #ffffff;
 
 }
 nav#menu h1 {
@@ -123,22 +134,22 @@ nav#menu a {
 }
 
 nav#menu a:hover {
-    color:#dddddd
+    color:#ff0000
 }
 
 section#corpo{
     display: block;
     width: 500px;
     float: left;
-    border-right: 1px solid #606060;
+    border-right: 1px solid #000000;
     padding-right:  15px;
     
 }
 
 article#noticia-principal h2 {
-    font-size: 13pt;
-    color: #606060;
-    background-color: #dddddd;
+    font-family: Arial sans-serif;
+    font-size: 15pt;
+    color: #000000;
     padding: 5px 0px 5px 10px;
     margin:  10px 0px 10px 0px;
 }
@@ -146,7 +157,7 @@ article#noticia-principal h2 {
 header#cabecalho-artigo h1 {
     font-family: 'Fontelogo';
     font-size: 20pt;
-    color:#606060;
+    color:#ff0000cc;
     margin-bottom: 0px;
     margin-top: 0px;
     
@@ -191,6 +202,7 @@ table#tabelaspec caption span{
     
 }
 aside#lateral {
+    font-family: Arial, sans-serif;
     background-color: #dddddd;
     display: block;
     width: 350px;
@@ -203,23 +215,26 @@ aside#lateral {
 aside#lateral h1 {
     font-family:'Fontelogo', sans-serif;
     font-size: 20pt;
-    color: #606060;
+    color: #000000;
     margin-top: 0px;
 
 }
-
 aside#lateral h2 {
-    background-color: #606060;
+    font-family: Arial, sans-serif;
     font-size: 13pt;
-    color:#ffffff;
+    color:#000000;
     padding: 5px;
-
-
 }
-
+aside#lateral2{
+ display: block;
+ width: 350px;
+ float: right;
+ padding: 10px;
+ margin-top: 10px;
+}
 footer#rodape{
     clear: both;
-    border-top: 1px solid #606060;
+    border-top: 1px solid #000000;
 }
 footer#rodape p {
     text-align: center;
@@ -237,3 +252,4 @@ table#tabelaspec td {
     padding:10px;
     text-align: center;
 }
+
