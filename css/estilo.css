@@ -42,12 +42,12 @@ header#cabecalho img#icone {
 header#cabecalho{
     border-bottom: 1px #000000 solid;
     height: 160px;
-    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
+    background: url(../imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
  }
 
  header#cabecalho h1 {
  font-size: 20pt;
- color: #0084ff;
+ color: #000000;
  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
  padding: 0px
 
@@ -56,7 +56,7 @@ header#cabecalho{
 }
 header#cabecalho h2 {
     font-family: 'Cantata One', serif;
-    color: #ff0000d2;
+    color: #000000d2;
     font-size: 15pt;
     padding: 0px;
     margin-top: 20px;
@@ -158,6 +158,8 @@ header#cabecalho-artigo h1 {
 
 .direita {
     text-align: right;
+    border-bottom: 1px solid;
+    border-spacing: 20px;
 }
 
 header#cabecalho-artigo h2 {
@@ -169,29 +171,41 @@ header#cabecalho-artigo h2 {
 }
 
 header#cabecalho-artigo h3 {
-    font-size: 12px;
-    color:#606060
+    font-size: 15px;
+    color:#000000
 }
-
+table#tabelaspec{
+    border: 1px solid #000000;
+    border-spacing: 5px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid;
+    padding:10px;
+    text-align: center;
+}
 table#tabelaspec td.ce {
-    color: #ffffff;
-    background-color: #606060;
-    font-weight: bold;
+    color: #000000;
+    background-color: #606060b4;
+    border-radius: 10px;
 }
 table#tabelaspec td.cd{
-    background-color:  #cecece
+    background-color:  #8d8d8d73;
+    border-radius: 10px;
+    
 }
 table#tabelaspec caption {
-    color: #88888888;
-    font-size: 13pt;
-    font-weight: bold;
+    font-size: 25pt;
+    font-family: 'Times New Roman', Times, serif;
 }
 table#tabelaspec caption span{
     display: block;
-    font-size: 8pt;
+    font-size: 10pt;
     float: right;
-    color:black;
-    margin-top: 10px;
+    color:rgb(0, 0, 0);
+    margin-top: 25px;
     
 }
 aside#lateral {
@@ -226,16 +240,3 @@ footer#rodape p {
     text-align: center;
 
 }
-table#tabelaspec{
-    border: 1px solid #606060;
-    border-spacing: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-table#tabelaspec td {
-    border: 1px solid;
-    padding:10px;
-    text-align: center;
-}
-
