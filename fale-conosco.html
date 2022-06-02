@@ -45,7 +45,7 @@
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
     <p><label for="cNome">Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo" /></p>
     <p>Senha: <input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Digitos A-Z+Numeros"/></p>
-    <p>E-mail: <input type="email" name="tMail" id="Cmail" size="40" maxlength="40" placeholder="Endereço de e-mail"/> </p>
+    <p>E-mail: <input type="email" name="tMail" id="Cmail" size="40" maxlength="40" placeholder="Endereço de e-mail"/></p>
 <fieldset id="sexo"><legend>sexo</legend>
       <input type="radio" name="tSex" id="cMasc"/> <label for="cMasc">Masculino</label><br>
        <input type="radio" name="tSex" id="cFem"/> <label for="cFem">Feminino</label>
@@ -54,9 +54,10 @@
 </fieldset>
 
 <fieldset id="endereco"><legend>Endereço do Usuário</legend>
-    Logradouro:
-    Número:
-    Estado:
+    <p>CEP: <input type="tel" name="tCep" id="cCep" size="10" maxlength="10" placeholder="Código-Postal"></p>
+    <p>Número: <input type="number" name="tNum" id="cNumb" min="0" max="999999" placeholder="Residência" ></p>
+    <p>Endereço: <input type="text" name="tRnd" id="cRua" size="50" maxlength="100" placeholder="Rua , Bairro "/></p>
+    <p>Estado:
     Cidade:
 </fieldset>
 
