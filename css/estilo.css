@@ -40,7 +40,7 @@ header#cabecalho img#icone {
     top: 50px;
 }
 header#cabecalho{
-    border-bottom: 1px #000000 solid;
+    border-bottom: 1px rgb(0, 0, 0) solid;
     height: 160px;
     background: url(../imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
  }
@@ -150,7 +150,7 @@ article#noticia-principal h2 {
 header#cabecalho-artigo h1 {
     font-family: 'Fontelogo';
     font-size: 20pt;
-    color:#ff0000cc;
+    color:#000000;
     margin-bottom: 0px;
     margin-top: 0px;
     
