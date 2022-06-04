@@ -127,7 +127,7 @@ nav#menu a {
 }
 
 nav#menu a:hover {
-    color:#ff0000
+    color:#000000
 }
 
 section#corpo{
@@ -208,6 +208,13 @@ table#tabelaspec caption span{
     margin-top: 25px;
     
 }
+
+#filme1 {
+    width: 500px;
+    height: 300px;
+    margin-top: -15px;
+}
+
 aside#lateral {
     font-family: Arial, sans-serif;
     background-color: #dddddd;
@@ -232,6 +239,12 @@ aside#lateral h2 {
     color:#000000;
     padding: 5px;
 }
+#filme2 {
+    width: 350px;
+    height: 200px;
+    margin-top: -10px;
+}
+
 
 footer#rodape{
     clear: both;
