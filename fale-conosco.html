@@ -40,30 +40,54 @@
     </header>
     
 
-<form>
+<form method="post" id="fContato" action="mailto:fael.oliveira.3@hotmail.com">
     
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
-    <p><label for="cNome">Nome: </label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo" /></p>
-    <p>Senha: <input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Digitos A-Z+Numeros"/></p>
-    <p>E-mail: <input type="email" name="tMail" id="Cmail" size="40" maxlength="40" placeholder="Endereço de e-mail"/></p>
+    <p><label for="cNome">Nome: </label> 
+        <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo" /></p>
+    <p><label for="cSenha"> Senha: </label> 
+        <input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Digitos A-Z+Numeros"/></p>
+    <p><label for="cMail"> E-mail: </label> 
+        <input type="email" name="tMail" id="cMail" size="40" maxlength="40" placeholder="Endereço de e-mail" /></p>
 <fieldset id="sexo"><legend>sexo</legend>
-      <input type="radio" name="tSex" id="cMasc"/> <label for="cMasc">Masculino</label><br>
-       <input type="radio" name="tSex" id="cFem"/> <label for="cFem">Feminino</label>
+        <input type="radio" name="tSex" id="cMasc"/> <label for="cMasc">Masculino</label><br>
+        <input type="radio" name="tSex" id="cFem"/> <label for="cFem">Feminino</label>
+
 </fieldset>
-    <p>Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></p>
+    <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"/></p>
 </fieldset>
 
 <fieldset id="endereco"><legend>Endereço do Usuário</legend>
-    <p>CEP: <input type="tel" name="tCep" id="cCep" size="10" maxlength="10" placeholder="Código-Postal"></p>
-    <p>Número: <input type="number" name="tNum" id="cNumb" min="0" max="999999" placeholder="Residência" ></p>
-    <p>Endereço: <input type="text" name="tRnd" id="cRua" size="50" maxlength="100" placeholder="Rua , Bairro "/></p>
-    <p> <label for="cEst">Estado:</label></p>
-    <p> <label for="cCid">Cidade:</label></p>
-</fieldset>
+    <p><label for="cNum">Número: </label><input type="number" name="tNum" id="cNum" min="0" max="999999" placeholder="Residência"/></p>
+    <p><label for="cRua">Endereço: </label><input type="text" name="tRnd" id="cRua" size="50" maxlength="100" placeholder="Rua , Bairro "/></p>
+    <p><label for="cEst">Estado: </label>
+<select name="tEst" id="cEst">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+</select></p>
+    <p><label for="cCid">Cidade:</label>
+        <input type="tCid" name="cCid" size="20" maxlength="40" placeholder="Sua Cidade" list="Cidades"/></p>
+        <datalist id="Cidades">
+            <option value="Rio de Janeiro"></option>
+            <option value="Rio Grande do Norte"></option>
+            <option value="Rio Grande do Sul"></option>
+            <option value="Paraná"></option>
+            <option value="Santa Catarina"></option>
+            <option value="São Paulo"></option>
+ </datalist>
+ 
+ </fieldset>
 
 <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
-    <p><label for="cUrg">Grau de Urgência:</label></p>
-    <p><label for="cMsg">Mensagem:</label></p>
+    <p><label for="cUrg">Grau de Urgência:</label>
+     Mím <input type="range" name="tUrg" id="cUrg" min="0" max="100"/>Max</p>
+    <p><label for="cMsg">Mensagem:</label>
+    <template
+    </p>
 </fieldset>
 
 <fieldset id="pedido"><legend>Quero um Google Glass</legend>
