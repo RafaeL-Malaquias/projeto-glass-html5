@@ -99,7 +99,7 @@ nav#menu ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
+
     top: -10px;
     left: 490px;
 }
