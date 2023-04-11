@@ -6,6 +6,7 @@ ul#album-fotos {
     padding: 50px;
     overflow: hidden;
     list-style: none;
+    cursor: grab;
 }
 
 ul#album-fotos li {

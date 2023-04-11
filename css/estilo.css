@@ -97,17 +97,17 @@ figure.foto-legenda:hover figcaption {
 
 nav#menu ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style: none;
     text-transform: uppercase;
-
-    top: -10px;
-    left: 490px;
+    font-size: 15px;
+    text-align: right;
+    margin-top: -100px;
+    
 }
 nav#menu li {
     display: inline-block;
     background-color: #dddddd;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 2px;
     transition: background-color 1s;
     border-radius: 15px;
 
