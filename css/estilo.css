@@ -96,11 +96,11 @@ figure.foto-legenda:hover figcaption {
 /* Formatçã do menu */
 
 nav#menu ul {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     text-align: right;
     margin-top: -100px;
+    letter-spacing: 1px;
     
 }
 nav#menu li {

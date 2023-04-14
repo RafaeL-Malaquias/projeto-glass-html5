@@ -4,4 +4,4 @@ function mudaFoto (foto)
 
 }
 
-alert( "Bem vindo! essa pagina esta versão antiga de HTML - CSS")
+alert( "Bem vindo! essa pagina esta em uma versão antiga de HTML - CSS")
