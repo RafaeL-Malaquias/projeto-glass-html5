@@ -51,8 +51,6 @@ header#cabecalho{
  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
  padding: 0px
 
-
-
 }
 header#cabecalho h2 {
     font-family: 'Cantata One', serif;
@@ -96,7 +94,6 @@ figure.foto-legenda:hover figcaption {
 /* Formatçã do menu */
 
 nav#menu ul {
-    text-transform: uppercase;
     font-size: 20px;
     text-align: right;
     margin-top: -100px;
@@ -113,10 +110,10 @@ nav#menu li {
 
 }
 nav#menu li:hover {
-    background-color: #ffffff;
+    background-color: #757575;
 }
 nav#menu a:hover {
-    color:#ff0000
+    color:#000000
 }
 nav#menu h1 {
     display: none;
@@ -224,7 +221,7 @@ aside#lateral {
 }
 
 aside#lateral h1 {
-    font-family:'Fontelogo', sans-serif;
+    font-family: 'Fontelogo';
     font-size: 20pt;
     color: #000000;
     margin-top: 0px;
